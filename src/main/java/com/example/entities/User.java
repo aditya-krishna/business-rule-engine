@@ -18,6 +18,10 @@ public class User {
 		return contactList;
 	}
 	
+	public void setContactList(List<Contact> contactList) {
+		this.contactList = contactList;
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}
