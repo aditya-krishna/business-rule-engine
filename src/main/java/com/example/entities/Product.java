@@ -27,6 +27,10 @@ public class Product {
 		return subCategory;
 	}
 
+	public void setSubCategory(ProductSubCategory subCategory) {
+		this.subCategory = subCategory;
+	}
+
 	public Royalty getRoyalty() {
 		return royalty;
 	}
