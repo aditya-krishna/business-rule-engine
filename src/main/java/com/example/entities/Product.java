@@ -19,6 +19,10 @@ public class Product {
 		return category;
 	}
 
+	public void setCategory(ProductCategory category) {
+		this.category = category;
+	}
+
 	public ProductSubCategory getSubCategory() {
 		return subCategory;
 	}
