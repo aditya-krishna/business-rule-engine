@@ -2,6 +2,7 @@ package com.example.enums;
 
 public enum ProductCategory {
 	PHYSICAL_PRODUCT("PHYSICAL_PRODUCT"),
+	DIGITAL_PRODUCT("DIGITAL_PRODUCT"),
 	MEMBERSHIP("MEMBERSHIP");
 	
 	private String category;
