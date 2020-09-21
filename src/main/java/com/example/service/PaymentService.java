@@ -4,4 +4,6 @@ import com.example.entities.Order;
 
 public interface PaymentService {
 	public void process(Order order);
+	
+	public void processCommissionPayment(Order order);
 }
