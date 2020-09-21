@@ -9,6 +9,7 @@ public class Order {
 	private Payment payment;
 
 	private Product product;
+	private Product freeProduct;
 	
 	private String orderNumber;
 	
@@ -32,6 +33,10 @@ public class Order {
 
 	public Product getProduct() {
 		return product;
+	}
+
+	public Product getFreeProduct() {
+		return freeProduct;
 	}
 
 	public String getOrderNumber() {
